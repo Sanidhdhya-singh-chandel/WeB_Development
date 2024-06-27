@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    background-color: black; 
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav #heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#nav #heading i{
+    font-size: 38px;
+}
+
+#main #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#main #container button{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 8px 40px;
+    border-radius: 100px;
+}
+
+#nav #container .but1{
+    font-size: 15px;
+    background-color: rgba(6, 248, 220, 0.692);
+    border: none;
+}
+
+#x{
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+#a{
+    width: 40%;
+    background-color: rgb(248, 215, 48);
+    border-radius: 20px;
+}
+
+#a #h{
+    padding: 15px 20px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+#a #circle{
+    display: flex;
+    justify-content: center;
+}
+
+#a #circle img{
+    height: 300px;
+    mix-blend-mode: color-burn;
+}
+
+#end #pic{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    background-image: url(/IMG_20220508_115550_299.jpg);
+    background-size: contain;
+}
+
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+#end p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#e{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#b{
+    background-color: rgba(6, 248, 167, 0.789);
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 20px 15px;
+    height: 50%;
+}
+
+#head{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#b i{
+    font-size: 65px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+#check{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 25px;
+}
+
+#b a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#b p{
+    font-size: 18px;
+    width: 70%;
+    padding: 5px 8px;
+}
+
+#c{
+    background-color: rgb(255, 146, 164);
+    border-radius: 20px;
+    padding: 30px 20px;
+    height: 49%;
+}
+
+#c a{
+    padding: 8px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#c #ai{
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#d{
+    position: relative;
+    width: 30%;
+    background-color:#fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+#d img{
+    border-radius: 25px;
+    height: 350px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#d #pic  h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+#d .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#d .title .right{
+    margin-top: 30px;
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+#d .title .left{
+    padding: 0px 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+#d .title .left h2{
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#d .line{
+    margin-bottom: -25px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+#buttom{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.line1{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(72, 56, 56);
+    margin-top: 10px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.con h3{
+    padding: 10px 20px;
+    color: rgba(145, 127, 127, 0.925);
+}
+
+.con .icon{
+    margin: 10px 20px;
+    background-color: rgb(25, 218, 121);
+    color: black;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.con .icon2{
+    margin: 10px 20px;
+    background-color: rgb(208, 218, 25);
+    color: black;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.con .icon3{
+    margin: 10px 20px;
+    height: 35px;
+    width: 33px;
+    background-color: rgb(243, 60, 197);
+    color: black;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.con .icon4{
+    margin: 10px 20px;
+    background-color: rgb(210, 133, 10);
+    color: black;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.con .icon5{
+    margin: 10px 20px;
+    background-color: rgb(237, 57, 57);
+    color: black;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.lower{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.lleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lleft .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title h1{
+    font-size: 25px;
+}
+
+.title hr{
+    margin-top: 5px;
+    width: 20px;
+    border: 1px solid rgba(145, 127, 127, 0.925);
+}
+
+.title h2{
+    font-size: 15px;
+    color: rgba(145, 127, 127, 0.925);
+}
+
+.lright{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.lright .but{
+    background-color: transparent;
+    color: rgba(145, 127, 127, 0.925);
+    font-size: 13px;
+    font-weight: 900;
+    padding: 5px 20px;
+    border: 2px solid rgba(183, 167, 167, 0.925);
+    border-radius: 20px;
+}
+
+.but:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 0px 20px #fff;
+    border: 2px solid black;
+}
+
+.lleft h3:hover{
+    color: #fff;
+    font-size: 25px;
+}
+
+.lleft h2:hover{
+    color: #fff;
+    font-size: 25px;
+}
+
+#nav #container button:hover{
+    background-color: #fff;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px #fff;
+}
+
+#nav #container .but1:hover{
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(6, 248, 220, 0.692);
+    box-shadow: 0px 0px 20px 5px rgba(6, 248, 220, 0.692);
+}
