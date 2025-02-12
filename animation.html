@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            height: 80vh;
+            width: 40vh;
+        }
+
+        .box{
+            width: 35px;
+            height: 45px;
+            background-color: blueviolet;
+            /* animation: animate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0, 0.32, 0, 1.05);
+            animation-delay: 2s;
+            animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: animate 15s ease-in-out 1 forwards;
+        }
+
+        @keyframes animate{
+            from{
+                background-color: red;
+            }
+            to{
+                transform: translateX(1000px);
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>

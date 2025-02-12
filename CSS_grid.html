@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* method ----1---- */
+         /* #container{
+            border: 3px solid red;
+            display: grid;
+            grid-template-columns: 120px 120px;
+            grid-template-rows: 100px 100px 100px;
+        }
+
+        .items{
+            border: 3px solid blue;
+            height: 55px;
+            width: 55px;
+        }
+
+        .item_5{
+            grid-row: 2/4;
+            grid-column: 1/2;
+        } */
+
+        /* method ----2---- */
+
+        #container{
+            border: 3px solid red;
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            grid-area: "nav nav nav"
+                        "side article article"
+                        "footer footer footer";
+        }
+
+        .items{
+            border: 3px solid blue;
+            height: 55px;
+        }
+
+        .item-1{
+            grid-area: nav;
+        }
+        .item-2{
+            grid-area: side;
+        }
+        .item-3{
+            grid-area: artice;
+        }
+        .item-4{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="items item-1">1</div>
+        <div class="items item-2">2</div>
+        <div class="items item-3">3</div>
+        <div class="items item-4">4</div>
+        <div class="items">5</div>
+    </div>
+</body>
+</html>
